@@ -84,7 +84,7 @@ const Collection = () => {
       <div className='min-w-60'>
         <p className='my-2 text-cl flex items-center cursor-pointer gap-2' onClick={()=>setShowFilter(!showFilter)}>FILTERS<img className={`h-3 sm:hidden ${showFilter?'rotate-90':''}`} src={assets.dropdown_icon}/></p>
         {/* Category filter */}
-        <div className={`border border-gary-300 pl-5 py-3 mt-6 ${showFilter?'':'hidden'} sm:block hover:scale-110 transition-shadow transform-3d duration-500`}>
+        <div className={`border border-gary-300 pl-5 py-3 mt-6 ${showFilter?'':'hidden'} sm:block transition-shadow transform-3d duration-500`}>
           <p className='mb-3 text-sm font-medium'>CATEGORIES</p>
           <div className='flex flex-col gap-2 text-sm font-ligt text-gary-700'>
             <p className='flex gap-2'>
