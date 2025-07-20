@@ -32,7 +32,9 @@ const PlaceOrder = () => {
           </div>
           <input type="number" className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Phone Number' />
         </div>
-        {/* ----------------right side--------------- */}
+        
+      </div>
+      {/* ----------------right side--------------- */}
         <div className='mt-8'>
           <div className='mt-8 min-w-80'>
             <CartTotal/>
@@ -59,7 +61,6 @@ const PlaceOrder = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   )
 }
